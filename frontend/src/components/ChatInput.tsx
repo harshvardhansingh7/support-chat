@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Button } from './ui/button';
 import { Textarea } from './ui/textarea';
 import { Send } from 'lucide-react';
-import { cn } from '@/lib/utils';
 
 interface ChatInputProps {
   onSendMessage: (message: string) => void;
