@@ -8,7 +8,7 @@ export interface Message {
 export interface Conversation {
   id: string;
   createdAt: string;
-  updatedAt: string;
+  updatedAt?: string;
   messages?: Message[];
 }
 
